@@ -1,11 +1,12 @@
 # spring-boot-hello-world
-Simple web application. This requires [Docker Desktop](https://docs.docker.com/desktop/) to run docker image, if you want.
+Simple web application.
 
 ## Create the mvn package
 ```bash
 mvn package
 ```
 ## create docker image
+### this may require docker env. [Docker Desktop](https://docs.docker.com/desktop/) can be used to run docker image.
 ```bash
 docker build -t hello-world:0.1.0
 ```
